@@ -1,0 +1,74 @@
+## Archivos de compilación
+bin/
+obj/
+[Bb]uild/
+[Bb]uilds/
+[Bb]in/Debug*/
+[Bb]in/Release*/
+[Bb]in/*/Debug*/
+[Bb]in/*/Release*/
+[Oo]bj/*
+
+## Archivos temporales
+*.tmp
+*.temp
+*.log
+*.tlog
+*.vspscc
+*.vssscc
+*.user
+*.suo
+*.cache
+*.pdb
+*.pidb
+*.dbmdl
+*.bak
+*.Backup
+*.old
+*.orig
+
+## Configuración de usuario
+*.userprefs
+*.userosscache
+*.user
+*.rsuser
+
+## Archivos de IDE
+.vs/
+.idea/
+.vscode/
+*.sln.iml
+
+## Archivos de pruebas
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+## Paquetes NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+!packages/build/
+*.nuget.props
+*.nuget.targets
+
+## Publicaciones
+publish/
+out/
+artifacts/
+
+## Archivos de datos y settings
+appsettings.Development.json
+secrets.json
+
+## Docker
+**/docker-compose.override.yml
+**/docker-compose.override.*.yml
+
+## Otros
+_ReSharper*/
+*.resharper
+*.DotSettings.user
+*.docstates
